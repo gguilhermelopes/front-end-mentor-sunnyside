@@ -18,7 +18,11 @@ const NavBarFooter = () => {
     <nav>
       <ul className="flex gap-12 text-[#32695c] mt-10 mb-20">
         {navBarContent.map((item) => (
-          <a href="/" key={item.label}>
+          <a
+            className="ease-in-out duration-300 hover:text-[#ededed]"
+            href="/"
+            key={item.label}
+          >
             {item.label}
           </a>
         ))}

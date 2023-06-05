@@ -1,3 +1,5 @@
+"use client";
+
 import IconPinterest from "@/app/graphicElements/icon-pinterest";
 import IconFacebook from "../../graphicElements/icon-facebook";
 import IconInstagram from "@/app/graphicElements/icon-instagram";

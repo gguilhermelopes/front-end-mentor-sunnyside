@@ -1,4 +1,4 @@
-import { fraunces } from "@/app/layout";
+"use client";
 
 interface CardProps {
   title: string;
@@ -22,7 +22,6 @@ const InfoSectionCard = ({
     bottom: "3px",
     left: "-11px",
     zIndex: "-1",
-    opacity: ".4",
     borderRadius: "9999px",
   };
   return (
@@ -31,18 +30,21 @@ const InfoSectionCard = ({
         position === "left" ? "pl-[160px] pr-[128px]" : "pl-[128px] pr-[160px]"
       }`}
     >
-      <h2
-        className={`${fraunces.className} text-veryDarkDesaturatedBlue text-4xl max-w-[16ch]`}
-      >
+      <h2 className="font-serif text-veryDarkDesaturatedBlue text-4xl max-w-[16ch]">
         {title}
       </h2>
       <p className="text-darkGrayishBlue my-11">{description}</p>
-      <a
-        className={`${fraunces.className} inline-block relative uppercase ms-1`}
-        href="/"
-      >
+      <a className="font-serif inline-block relative uppercase ms-1" href="/">
         Learn more
-        <span style={{ position: "absolute", ...style }} />
+        <span
+          className="opacity-40 ease-in-out duration-300"
+          style={{ position: "absolute", ...style }}
+        />
+        <style jsx>{`
+          a:hover span {
+            opacity: 1;
+          }
+        `}</style>
       </a>
     </div>
   );

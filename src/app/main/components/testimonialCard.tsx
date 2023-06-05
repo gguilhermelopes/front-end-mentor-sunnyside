@@ -1,4 +1,3 @@
-import { fraunces } from "@/app/layout";
 import Image from "next/image";
 
 interface TestimonialCardProps {
@@ -24,9 +23,7 @@ const TestimonialCard = ({
         className="rounded-full"
       />
       <p className="mt-10 text-center text-veryDarkGrayishBlue">{quote}</p>
-      <p className={`${fraunces.className} mt-16 text-veryDarkDesaturatedBlue`}>
-        {name}
-      </p>
+      <p className="font-serif mt-16 text-veryDarkDesaturatedBlue">{name}</p>
       <p className="mt-3 text-sm text-grayishBlue">{position}</p>
     </div>
   );

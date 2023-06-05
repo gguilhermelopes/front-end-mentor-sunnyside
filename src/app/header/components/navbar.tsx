@@ -1,4 +1,3 @@
-import { fraunces } from "@/app/layout";
 const navBarContent = [
   {
     label: "About",
@@ -26,10 +25,11 @@ const NavBar = () => {
         {navBarContent.map((item) => (
           <li key={item.label}>
             <a
-              className={`py-2 px-4 ${
-                item.isButton &&
-                `${fraunces.className} text-veryDarkDesaturatedBlue bg-white uppercase rounded-full py-4 px-6`
-              }`}
+              className={`py-2 px-4 ease-in-out duration-300 ${
+                item.isButton
+                  ? "font-serif text-veryDarkDesaturatedBlue bg-white uppercase rounded-full py-4 px-6 hover:bg-[#8cd6f5] hover:bg-opacity-50 hover:text-white"
+                  : "hover:text-darkDesaturatedCyan"
+              } `}
               href={item.href}
             >
               {item.label}

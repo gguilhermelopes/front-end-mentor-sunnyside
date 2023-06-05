@@ -5,6 +5,7 @@ const barlow = Barlow({ weight: "600", subsets: ["latin"] });
 export const fraunces = Fraunces({
   weight: ["700", "900"],
   subsets: ["latin"],
+  variable: "--font-fraunces",
 });
 
 export const metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${barlow.className} flex min-h-screen flex-col items-center`}
+        className={`${barlow.className} ${fraunces.variable} flex min-h-screen flex-col items-center`}
       >
         {children}
       </body>

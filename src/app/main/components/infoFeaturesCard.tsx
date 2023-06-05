@@ -1,5 +1,3 @@
-import { fraunces } from "@/app/layout";
-
 interface FeaturesCardProps {
   title: string;
   description: string;
@@ -23,7 +21,7 @@ const InfoFeaturesCard = ({
       style={style}
     >
       <div className="mt-auto px-44 py-16">
-        <h2 className={`${fraunces.className} text-3xl mb-5`}>{title}</h2>
+        <h2 className="font-serif text-3xl mb-5">{title}</h2>
         <p>{description}</p>
       </div>
     </div>

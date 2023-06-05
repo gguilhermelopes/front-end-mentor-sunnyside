@@ -1,4 +1,3 @@
-import { fraunces } from "@/app/layout";
 import TestimonialCard from "./testimonialCard";
 
 const testimonialsContent = [
@@ -28,9 +27,7 @@ const testimonialsContent = [
 const Testimonials = () => {
   return (
     <>
-      <h2
-        className={`${fraunces.className} uppercase text-darkGrayishBlue text-xl tracking-[.25em]`}
-      >
+      <h2 className="font-serif uppercase text-darkGrayishBlue text-xl tracking-[.25em]">
         Client Testimonials
       </h2>
       <div className="flex gap-10 mt-20">

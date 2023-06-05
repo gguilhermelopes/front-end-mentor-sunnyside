@@ -22,6 +22,9 @@ module.exports = {
       backgroundImage: {
         headerImg: "url('/images/desktop/image-header.jpg')",
       },
+      fontFamily: {
+        serif: ["var(--font-fraunces)"],
+      },
     },
   },
   plugins: [],
