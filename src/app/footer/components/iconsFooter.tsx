@@ -10,22 +10,22 @@ const IconsFooter = () => {
     <nav>
       <ul className="flex items-center gap-8">
         <li>
-          <a href="/">
+          <a className="group" href="/">
             <IconFacebook />
           </a>
         </li>
         <li>
-          <a href="/">
+          <a className="group" href="/">
             <IconInstagram />
           </a>
         </li>
         <li>
-          <a href="/">
+          <a className="group" href="/">
             <IconTwitter />
           </a>
         </li>
         <li>
-          <a href="/">
+          <a className="group" href="/">
             <IconPinterest />
           </a>
         </li>
