@@ -2,7 +2,7 @@ import "./globals.css";
 import { Barlow, Fraunces } from "next/font/google";
 
 const barlow = Barlow({ weight: "600", subsets: ["latin"] });
-export const fraunces = Fraunces({
+const fraunces = Fraunces({
   weight: ["700", "900"],
   subsets: ["latin"],
   variable: "--font-fraunces",
