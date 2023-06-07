@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/gguilhermelopes/front-end-mentor-sunnyside)
+- Live Site URL: [Live URL](https://front-end-mentor-sunnyside-gguilhermelopes.vercel.app/)
 
 ## My process
 
