@@ -1,4 +1,9 @@
-const navBarContent = [
+"use client";
+
+import useMobile from "@/hooks/useMobile";
+import MenuMobile from "./menuMobile";
+
+export const navBarContent = [
   {
     label: "About",
     href: "/",
@@ -19,6 +24,8 @@ const navBarContent = [
 ];
 
 const NavBar = () => {
+  const isMobile = useMobile("(max-width:1024px)");
+  if (isMobile) return <MenuMobile />;
   return (
     <nav>
       <ul className="flex gap-8 text-white">

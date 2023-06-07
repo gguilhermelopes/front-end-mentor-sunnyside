@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Barlow, Fraunces } from "next/font/google";
 
-const barlow = Barlow({ weight: "600", subsets: ["latin"] });
+const barlow = Barlow({ weight: ["600", "500"], subsets: ["latin"] });
 const fraunces = Fraunces({
   weight: ["700", "900"],
   subsets: ["latin"],

@@ -27,10 +27,10 @@ const testimonialsContent = [
 const Testimonials = () => {
   return (
     <>
-      <h2 className="font-serif uppercase text-darkGrayishBlue text-xl tracking-[.25em]">
+      <h2 className="font-serif uppercase text-darkGrayishBlue text-md md:text-xl tracking-[.25em] text-center">
         Client Testimonials
       </h2>
-      <div className="flex gap-10 mt-20">
+      <div className="flex flex-col lg:flex-row gap-10 mt-20">
         {testimonialsContent.map((testimonial) => (
           <TestimonialCard
             key={testimonial.name}

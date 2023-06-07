@@ -22,7 +22,9 @@ const TestimonialCard = ({
         height={75}
         className="rounded-full"
       />
-      <p className="mt-10 text-center text-veryDarkGrayishBlue">{quote}</p>
+      <p className="mt-10 text-center text-veryDarkGrayishBlue max-w-[40ch]">
+        {quote}
+      </p>
       <p className="font-serif mt-16 text-veryDarkDesaturatedBlue">{name}</p>
       <p className="mt-3 text-sm text-grayishBlue">{position}</p>
     </div>

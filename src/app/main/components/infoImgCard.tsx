@@ -8,7 +8,7 @@ const InfoImg = ({ image }: ImgProps) => {
   };
   return (
     <div
-      className={`bg-no-repeat bg-center bg-cover h-full w-full`}
+      className="bg-no-repeat bg-center bg-cover md:h-full md:w-full h-[250px]"
       style={style}
     />
   );

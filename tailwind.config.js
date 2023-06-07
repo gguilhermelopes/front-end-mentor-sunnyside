@@ -21,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         headerImg: "url('/images/desktop/image-header.jpg')",
+        headerImgMobile: "url('/images/mobile/image-header.jpg')",
       },
       fontFamily: {
         serif: ["var(--font-fraunces)"],
