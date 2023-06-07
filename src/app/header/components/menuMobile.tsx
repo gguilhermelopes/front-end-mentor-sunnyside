@@ -21,7 +21,7 @@ const MenuMobile = () => {
       {isMenuOpen && (
         <div
           onClick={handleOutsideClick}
-          className="w-full min-h-full absolute top-0 left-0 flex flex-col items-center z-10"
+          className="w-full animate-anima-in min-h-full absolute top-0 left-0 flex flex-col items-center z-10"
         >
           <nav className="w-[90%] relative bg-slate-100 mt-24 p-8 before:content[''] before:inline-block before:w-0 before:h-0 before:absolute before:top-[-25px] before:right-0 before:border-r-[25px] before:border-r-slate-100 before:border-t-[25px] before:border-t-transparent before:border-b-0 before:border-b-transparent ">
             <ul className="flex flex-col items-center gap-8">

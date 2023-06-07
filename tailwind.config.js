@@ -26,6 +26,21 @@ module.exports = {
       fontFamily: {
         serif: ["var(--font-fraunces)"],
       },
+      keyframes: {
+        animaIn: {
+          from: {
+            opacity: 0,
+            transform: "translateX(40px)",
+          },
+          to: {
+            opacity: 1,
+            transform: "initial",
+          },
+        },
+      },
+      animation: {
+        "anima-in": "animaIn .3s forwards",
+      },
     },
   },
   plugins: [],
